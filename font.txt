@@ -1,0 +1,40 @@
+Etiqueta <link>: Puedes importar una fuente externa utilizando la etiqueta <link> en la sección <head> de tu documento HTML. Aquí tienes un ejemplo de cómo se hace:
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nombre+de+la+Fuente">
+Reemplaza "Nombre+de+la+Fuente" con el nombre de la fuente que deseas importar. Luego, puedes utilizar la fuente en tu CSS utilizando el nombre especificado.
+
+Regla @import: Otra forma de importar una fuente es utilizando la regla @import en tu archivo CSS. Aquí tienes un ejemplo:
+@import url('https://fonts.googleapis.com/css?family=Nombre+de+la+Fuente');
+Al igual que en el ejemplo anterior, reemplaza "Nombre+de+la+Fuente" con el nombre de la fuente que deseas importar. Luego, puedes utilizar la fuente en tu CSS utilizando el nombre especificado.
+
+Etiqueta <style>: También puedes importar una fuente utilizando la etiqueta <style> en la sección <head> de tu documento HTML. Aquí tienes un ejemplo:
+<style>
+     @import url('https://fonts.googleapis.com/css?family=Nombre+de+la+Fuente');
+   </style>
+Nuevamente, reemplaza "Nombre+de+la+Fuente" con el nombre de la fuente que deseas importar. Luego, puedes utilizar la fuente en tu CSS utilizando el nombre especificado.
+
+Una vez que hayas importado la fuente, puedes utilizarla en tu CSS utilizando la propiedad font-family. Aquí tienes un ejemplo de cómo se hace:
+
+body {
+  font-family: 'Nombre de la Fuente', sans-serif;
+}
+Reemplaza "Nombre de la Fuente" con el nombre de la fuente que importaste. Asegúrate de incluir fuentes alternativas en caso de que la fuente importada no esté disponible.
+
+
+El CSS (Cascading Style Sheets) es un lenguaje utilizado para dar estilo y presentación a los documentos HTML. Permite controlar la apariencia de los elementos en una página web, como el color, la fuente, el tamaño, el espaciado y otros aspectos visuales.
+
+El funcionamiento del CSS se basa en la aplicación de reglas de estilo a los elementos HTML. Estas reglas se definen utilizando selectores y propiedades. Los selectores indican a qué elementos se aplicará el estilo, mientras que las propiedades especifican cómo se verán esos elementos.
+
+A continuación, te explico cómo se aplican y funcionan algunas características importantes del CSS:
+
+Selectores: Los selectores se utilizan para seleccionar los elementos a los que se aplicará un estilo. Puedes utilizar selectores de etiqueta, clase, ID, atributo, pseudo-clase, pseudo-elemento, entre otros.
+
+Propiedades: Las propiedades definen cómo se verán los elementos seleccionados. Puedes utilizar propiedades como color, font-family, background-color, margin, padding, entre muchas otras.
+
+Declaraciones: Las declaraciones se componen de una propiedad y un valor separados por dos puntos. Por ejemplo: color: blue;. Puedes agrupar múltiples declaraciones dentro de un bloque de estilo utilizando llaves {}.
+
+Especificidad: La especificidad determina qué estilo se aplicará cuando hay conflictos entre diferentes reglas. Se basa en la combinación de selectores utilizados y su orden de aparición.
+
+Herencia: Algunas propiedades se heredan de los elementos padre a los elementos hijos. Esto significa que si aplicas un estilo a un elemento padre, es posible que los elementos hijos también hereden ese estilo, a menos que se especifique lo contrario.
+
+Cascada: La cascada se refiere al proceso de aplicar múltiples reglas de estilo a un elemento y resolver los conflictos entre ellas. Las reglas con mayor especificidad tienen prioridad y se aplican sobre las reglas con menor especificidad.
+
